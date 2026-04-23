@@ -17,6 +17,7 @@ const ProjectSchema: Schema<IProject> = new Schema(
     title: { type: String, required: true },
     description: { type: String, required: true },
     tags: { type: [String], required: true },
+    metrics: { type: String },
     githubLink: { type: String },
     demoUrl: { type: String },
     featured: { type: Boolean, default: false },
