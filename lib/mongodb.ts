@@ -14,17 +14,13 @@ interface MongooseCache {
   promise: Promise<typeof mongoose> | null;
 }
 
-declare global {
-  var mongoose: MongooseCache;
-}
-
-let cached = global.mongoose;
+let cached = (global as any).mongoose;
 
 if (!cached) {
-  cached = global.mongoose = { conn: null, promise: null };
+  cached = (global as any).mongoose = { conn: null, promise: null };
 }
 
-async function MongoDB() {
+async function connectDB() {
   if (cached.conn) return cached.conn;
   if (!cached.promise) {
     cached.promise = mongoose.connect(MONGODB_URI, {
@@ -32,4 +28,7 @@ async function MongoDB() {
     });
   }
   cached.conn = await cached.promise;
+  return cached.conn;
 }
+
+export default connectDB;
