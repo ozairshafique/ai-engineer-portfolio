@@ -18,7 +18,7 @@ export async function GET() {
 
 export async function POST(request: NextRequest) {
   try {
-    const adminKey = request.headers.get("X-admin-key");
+    const adminKey = request.headers.get("x-admin-key");
     if (adminKey !== process.env.ADMIN_SECRET) {
       return NextResponse.json(
         {
