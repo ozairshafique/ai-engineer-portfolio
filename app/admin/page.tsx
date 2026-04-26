@@ -12,7 +12,7 @@ export default function AdminPage() {
     title: "",
     description: "",
     tags: "",
-    metircs: "",
+    metrics: "",
     githubLink: "",
     demoUrl: "",
     featured: false,
@@ -59,7 +59,7 @@ export default function AdminPage() {
     setMessage("");
 
     try {
-      const response = await fetch("api/projects", {
+      const response = await fetch("/api/projects", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -80,7 +80,7 @@ export default function AdminPage() {
           title: "",
           description: "",
           tags: "",
-          metircs: "",
+          metrics: "",
           githubLink: "",
           demoUrl: "",
           featured: false,
@@ -177,9 +177,9 @@ export default function AdminPage() {
               Metrics (optional)
             </label>
             <input
-              name="metircs"
+              name="metrics"
               onChange={handleChange}
-              value={form.metircs}
+              value={form.metrics}
               placeholder="F1: 0.85 · ROC-AUC: 0.96"
               className="w-full px-4 py-2 text-white bg-white/5 border boder-white/10 placeholder-white/20 focus:outline-none hover:border-white/30 rounded-xl text-sm"
             />
@@ -214,7 +214,7 @@ export default function AdminPage() {
                 Display Order
               </label>
               <input
-                name="Order"
+                name="order"
                 onChange={handleChange}
                 value={form.order}
                 type="number"
