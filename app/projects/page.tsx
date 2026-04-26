@@ -99,14 +99,31 @@ export default function ProjectsPage() {
                       {project.description}
                     </p>
 
-                    {/* First 4 tags */}
-                    <div className="flex flex-wrap gap-2">
-                      {!isExpanded && (
-                        <p className="text-xs text-white/20 mt-2">
-                          Click to see full details →
-                        </p>
-                      )}
-                    </div>
+                    {/* First 4 tags — collapsed only */}
+                    {!isExpanded && (
+                      <div className="flex flex-wrap gap-2 mb-2">
+                        {project.tags.slice(0, 4).map((tag) => (
+                          <span
+                            key={tag}
+                            className="px-2 py-0.5 text-xs rounded-md border border-white/10 bg-white/5 text-white/50"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                        {project.tags.length > 4 && (
+                          <span className="px-2 py-0.5 text-xs rounded-md border border-white/10 bg-white/5 text-white/30">
+                            +{project.tags.length - 4} more
+                          </span>
+                        )}
+                      </div>
+                    )}
+
+                    {/* Hint when collapsed */}
+                    {!isExpanded && (
+                      <p className="text-xs text-white/20 mt-1">
+                        Click to see full details →
+                      </p>
+                    )}
                   </div>
 
                   {/* Expanded content */}
