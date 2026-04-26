@@ -100,7 +100,7 @@ export default function AdminPage() {
   if (!isAuthenticated) {
     return (
       <main className="min-h-screen flex items-center justify-center">
-        <div className="w-full max-w-sm p-8 border border-white/10 rounded-xl bg-white/50">
+        <div className="w-full max-w-sm p-8 border border-white/10 rounded-xl bg-[#1d1d1d]">
           <h1 className="text-lg font-medium">Admin Login</h1>
           <p className="text-white/40 text-sm mb-6">
             Please enter your admin password
