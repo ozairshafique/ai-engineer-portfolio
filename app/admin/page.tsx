@@ -38,6 +38,7 @@ export default function AdminPage() {
       }
     } catch (error) {
       setMessage("An error occurred during login.");
+    } finally {
       setLoading(false);
     }
   }
