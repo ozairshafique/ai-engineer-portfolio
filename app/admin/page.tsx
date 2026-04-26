@@ -116,7 +116,7 @@ export default function AdminPage() {
           <button
             onClick={handleLogin}
             disabled={loading}
-            className="w-full px-4 py-2 bg-white hover:bg-white/90 text-white rounded-lg transition-colors disabled:opacity-50"
+            className="w-full px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg transition-colors disabled:opacity-50"
           >
             {loading ? "Logging in..." : "Login"}
           </button>
