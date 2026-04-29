@@ -1,6 +1,6 @@
-# Ozair Shafique — AI Engineer Portfolio
+# Uzair Shafique — AI Engineer Portfolio
 
-> Personal portfolio of Ozair Shafique — AI & Backend Engineer with 3+ years of experience. Built with Next.js 14, MongoDB Atlas, TypeScript, and Tailwind CSS. Deployed on Vercel.
+> Personal portfolio of Uzair Shafique — AI & Backend Engineer with 3+ years of experience. Built with Next.js 14, MongoDB Atlas, TypeScript, and Tailwind CSS. Deployed on Vercel.
 
 ![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?logo=typescript)
@@ -10,13 +10,13 @@
 
 ## 🔗 Live Site
 
-**[ozairshafique.vercel.app](https://ozairshafique.vercel.app)**
+**[uzairshafique.vercel.app](https://uzairshafique.vercel.app)**
 
 ---
 
 ## 👤 About
 
-**Ozair Shafique** — AI & Backend Engineer specializing in:
+**Uzair Shafique** — AI & Backend Engineer specializing in:
 
 - 🤖 NLP · RAG · Machine Learning · Data Science
 - ⚙️ MLOps · Docker · MLflow · DVC · GitHub Actions
@@ -255,9 +255,9 @@ Then on Vercel:
 
 ## 📬 Contact
 
-**Ozair Shafique — AI & Backend Engineer**
+**Uzair Shafique — AI & Backend Engineer**
 
-- 🌐 Portfolio: [ozairshafique.vercel.app](https://ozairshafique.vercel.app)
+- 🌐 Portfolio: [uzairshafique.vercel.app](https://uzairshafique.vercel.app)
 - 💼 LinkedIn: [linkedin.com/in/uzair-shafique-97836810a](https://www.linkedin.com/in/uzair-shafique-97836810a)
 - 🐙 GitHub: [github.com/ozairshafique](https://github.com/ozairshafique)
 - 📧 Email: uzairi_11@email.com
