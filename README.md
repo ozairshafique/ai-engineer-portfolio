@@ -260,7 +260,7 @@ Then on Vercel:
 - 🌐 Portfolio: [uzairshafique.vercel.app](https://uzairshafique.vercel.app)
 - 💼 LinkedIn: [linkedin.com/in/uzair-shafique-97836810a](https://www.linkedin.com/in/uzair-shafique-97836810a)
 - 🐙 GitHub: [github.com/ozairshafique](https://github.com/ozairshafique)
-- 📧 Email: uzairi_11@email.com
+- 📧 Email: uzairi_11@hotmail.com
 - 📍 Location: Bari, Italy 🇮🇹
 - ✅ EU Residence Permit — Open to work across Europe
 
