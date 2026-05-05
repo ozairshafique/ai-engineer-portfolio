@@ -22,6 +22,7 @@ const skills = [
       "Semantic Search",
     ],
   },
+
   {
     category: "Backend & APIs",
     skills: ["FastAPI", "REST APIs", "PostgreSQL", "MongoDB", "SQL", "NoSQL"],
@@ -49,6 +50,8 @@ const skills = [
       "Grafana",
       "AWS EC2",
       "AWS S3",
+      "AWS Cloudwatch",
+      "AWS IAM",
       "MongoDB Atlas",
       "Vercel",
     ],
