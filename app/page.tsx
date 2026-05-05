@@ -18,6 +18,8 @@ const skills = [
       "Pandas",
       "NumPy",
       "Hugging Face",
+      "Cohere API",
+      "Semantic Search",
     ],
   },
   {
