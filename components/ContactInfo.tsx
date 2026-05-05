@@ -35,8 +35,8 @@ function GitHubIcon() {
 }
 const contactLinks = [
   {
-    label: "uzairi_11@email.com",
-    href: "mailto:uzairi_11@email.com",
+    label: "uzairi_11@hotmail.com",
+    href: "mailto:uzairi_11@hotmail.com",
     icon: <EmailIcon />,
   },
   {
