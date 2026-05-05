@@ -34,6 +34,24 @@ function GitHubIcon() {
   );
 }
 
+function WebIcon() {
+  return (
+    <svg
+      width="16"
+      height="16"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    >
+      <circle cx="12" cy="12" r="10" />
+      <path d="M2 12h20" />
+      <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+    </svg>
+  );
+}
 function PhoneIcon() {
   return (
     <svg
@@ -53,6 +71,11 @@ function PhoneIcon() {
 
 const contactLinks = [
   {
+    label: "+39 348 048 3117",
+    href: "tel:+393480483117",
+    icon: <PhoneIcon />,
+  },
+  {
     label: "uzairi_11@hotmail.com",
     href: "mailto:uzairi_11@hotmail.com",
     icon: <EmailIcon />,
@@ -69,9 +92,9 @@ const contactLinks = [
   },
 
   {
-    label: "+39 348 048 3117",
-    href: "tel:+393480483117",
-    icon: <PhoneIcon />,
+    label: "uzairshafique.vercel.app",
+    href: "https://uzairshafique.vercel.app",
+    icon: <WebIcon />,
   },
 ];
 const availability = [
